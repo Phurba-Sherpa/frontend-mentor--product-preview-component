@@ -71,7 +71,7 @@ It's been about 6 months since I started focusing on css skill. In the upcomming
 
 ## Author
 
-- Website - [Phurba Sherpa](https://phurbasherpa.name.np)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Phurba-Sherpa)
-- LinedIn - [@yourusername](https://linkedin.com/in/phurbas)
+- Website - [Phurba](https://phurbasherpa.name.np)
+- Frontend Mentor - [Phurba](https://www.frontendmentor.io/profile/Phurba-Sherpa)
+- LinedIn - [@phurbas](https://linkedin.com/in/phurbas)
 
