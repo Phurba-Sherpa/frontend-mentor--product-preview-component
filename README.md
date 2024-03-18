@@ -30,7 +30,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./images/ss-desktop.png)
-![](./images/ss-mob.png)
 
 ### Links
 
