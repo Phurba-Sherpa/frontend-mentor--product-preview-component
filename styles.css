@@ -1,11 +1,11 @@
 :root {
     --color-brand-400: hsl(158, 36%, 37%);
-    --ff-serif: "Montserrat", sans-serif;
-    --ff-sans: "Fraunces", serif;
-    
+    --ff-serif: 'Montserrat', sans-serif;
+    --ff-sans: 'Fraunces', serif;
+
     --color-gray-0: hsl(0, 0%, 100%);
     --color-gray-300: hsl(30, 38%, 92%);
-    --color-gray-400:hsl(228, 12%, 48%);
+    --color-gray-400: hsl(228, 12%, 48%);
     --color-gray-700: hsl(212, 21%, 14%);
 
     --border-radius-md: 9px;
@@ -32,7 +32,7 @@ body {
     line-height: 1.5;
 }
 
-img {
+img{
     max-width: 100%;
     max-height: 100%;
 }
@@ -43,12 +43,9 @@ img {
     margin: 0 auto;
 }
 
-
 .product-card {
     margin-block: 2rem;
 }
-
-
 
 .btn {
     background-color: var(--color-brand-400);
@@ -73,16 +70,13 @@ img {
     padding-left: 1rem;
 }
 
-.prod-mob-img {
+.prod__img>img {
     border-top-left-radius: var(--border-radius-md);
     border-top-right-radius: var(--border-radius-md);
-    margin: 0;
     display: block;
+    height: 100%;
 }
 
-.prod-desk-img {
-    display: none;
-}
 .prod-content {
     background-color: var(--color-gray-0);
     padding: 3rem;
@@ -92,14 +86,14 @@ img {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 500;
-    margin-bottom: .825em;
+    margin-bottom: 0.825em;
 }
 
 .prod-title {
     font-weight: 700;
     font-size: 3.2rem;
     color: var(--color-gray-700);
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
     font-family: var(--ff-sans);
     line-height: 1.3;
 }
@@ -111,7 +105,7 @@ img {
 
 .prod-price {
     display: flex;
-    align-items:center;
+    align-items: center;
     gap: 2rem;
     margin-bottom: 1em;
 }
@@ -127,33 +121,29 @@ img {
     text-decoration: line-through;
 }
 
-
-
 @media (min-width: 640px) {
     .section-card {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100dvh;
-}
-
-    .prod-mob-img {
-        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100dvh;
     }
 
-    .prod-desk-img {
-        display: block;
+    .prod__img>img{
         border-top-left-radius: var(--border-radius-md);
-    border-bottom-left-radius: var(--border-radius-md);
+        border-bottom-left-radius: var(--border-radius-md);
     }
 
-    
-.product-card {
-    display: flex;
-    max-width: 60rem;
-}
+    .product-card {
+        display: flex;
+        max-width: 60rem;
+    }
 
-.product-card > * {
-    width: 50%;
-}
+    .product-card > * {
+        width: 50%;
+    }
+
+    .prod-title {
+        line-height: 1.2;
+    }
 }

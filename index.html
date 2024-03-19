@@ -21,8 +21,10 @@
   <main class="container">
     <section class="section-card">
       <section class="product-card">
-        <img src="./images//image-product-mobile.jpg" class="prod-mob-img" alt="perfume" />
-        <img src="./images/image-product-desktop.jpg" alt="perfume" class="prod-desk-img" />
+        <picture class="prod__img">
+          <source media="(min-width: 640px)" srcset="./images/image-product-desktop.jpg" />
+          <img src="./images/image-product-mobile.jpg" alt="perfume"/>
+        </picture>
         <div class="prod-content">
           <p class="prod-tag">perfume</p>
           <h2 class="prod-title">Gabrielle Essence Eai De Parfum</h2>
@@ -32,7 +34,7 @@
           <p class="prod-price"><span class="prod-original-price">$149.99</span><span
               class="prod-disc-price">$169.99</span></p>
           <button class="btn">
-            <img src="./images/icon-cart.svg" />
+            <img src="./images/icon-cart.svg" alt="cart icon" />
             <span>Add to cart</span>
           </button>
         </div>

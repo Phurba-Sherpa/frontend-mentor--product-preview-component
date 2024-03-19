@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Phurba-Sherpa/frontend-mentor--product-preview-component)
-- Live Site URL: [Add live site URL here](https://phurba-sherpa.github.io/frontend-mentor--product-preview-component/)
+- Solution URL: [Code](https://github.com/Phurba-Sherpa/frontend-mentor--product-preview-component)
+- Live Site URL: [Live](https://phurba-sherpa.github.io/frontend-mentor--product-preview-component/)
 
 ## My process
 
@@ -60,6 +60,17 @@ Had small gap between content and image in mobile design, tried settin margin to
   display: block;
 }
 ```
+
+I also learn that we can set different images based on the screen width, using `picture`. Thanks to the [Gautam Sarkar](https://www.frontendmentor.io/profile/gautam3333) for valuable concept.
+
+```html
+<picture>
+  <source media="(min-width: 640px)" srcset='desktop-version.jpg" />
+  <img src="mobile-version.jpg" alt = "perfume"/>
+</picture>
+```
+So basically idea is that we can define different sources based on media query, and none matches the condition, image selection falls to the `img` that we defined at last. Its a default value just like in switch case. Also remember `sources` are optional but `img` is mandatory.
+
 ### Continued development
 
 It's been about 6 months since I started focusing on css skill. In the upcomming days my focus remaings in following topics:
