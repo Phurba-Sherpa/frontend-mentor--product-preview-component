@@ -130,8 +130,10 @@ img{
     }
 
     .prod__img>img{
-        border-top-left-radius: var(--border-radius-md);
+        
         border-bottom-left-radius: var(--border-radius-md);
+        border-top-right-radius: 0;
+
     }
 
     .product-card {
@@ -144,6 +146,6 @@ img{
     }
 
     .prod-title {
-        line-height: 1.2;
+        line-height: 1.3;
     }
 }

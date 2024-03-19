@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Code](https://github.com/Phurba-Sherpa/frontend-mentor--product-preview-component)
-- Live Site URL: [Live](https://phurba-sherpa.github.io/frontend-mentor--product-preview-component/)
+- Solution URL: [VIEW CODE](https://github.com/Phurba-Sherpa/frontend-mentor--product-preview-component)
+- Live Site URL: [PREVIEW SITE](https://phurba-sherpa.github.io/frontend-mentor--product-preview-component/)
 
 ## My process
 
